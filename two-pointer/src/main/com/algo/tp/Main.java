@@ -22,5 +22,12 @@ public class Main {
         //DutchNationalFlag
         DutchNationalFlag.sort012(new int[]{2, 0, 2, 1, 1, 0});
         DutchNationalFlag.sort012(new int[]{2, 0, 1});
+
+        //Subsequence
+        System.out.println("Is abc subString of ahbgc: " + SubsequenceChecker.isSubSequence("abc", "ahbgc"));
+        System.out.println("Is abc subString of ahabc: " + SubsequenceChecker.isSubSequence("abc", "ahabc"));
+
+        //MoveZeroes
+        MoveZeroes.moveZeroes(new int[]{0, 1, 0, 3, 12});
     }
 }
