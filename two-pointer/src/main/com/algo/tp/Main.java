@@ -8,6 +8,11 @@ public class Main {
         //TwoSum
         System.out.println(Arrays.toString(TwoSum.twoSum(new int[]{2, 7, 11, 15}, 9)));
         System.out.println(Arrays.toString(TwoSum.twoSum(new int[]{1, 2, 3, 4, 5, 6}, 3)));
+        System.out.println("Distinct Count: " + TwoSum.countDistinctPairs(new int[]{1, 1, 2, 3, 3, 4, 5, 5}, 6));
+        System.out.println("ClosetToTarget: 1, 4, 7, 10 and t = 12 :" + Arrays.toString(TwoSum.findClosetToTarget(new int[]{1, 4, 7, 10}, 12)));
+        System.out.println("ClosetToTarget: 1, 2, 4, 8, 10 and t = 14 :" + Arrays.toString(TwoSum.findClosetToTarget(new int[]{1, 2, 4, 8, 10}, 14)));
+        System.out.println("ClosetToTarget: -10, -5, 0, 5, 12 and t = 3 :" + Arrays.toString(TwoSum.findClosetToTarget(new int[]{-10, -5, 0, 5, 12}, 3)));
+        System.out.println("ClosetToTarget: 1, 2, 3, 4 and t = 100 :" + Arrays.toString(TwoSum.findClosetToTarget(new int[]{1, 2, 3, 4}, 100)));
 
         //MergeTwoSortedArrays
         MergeTwoSortedArrays.merge(new int[]{1, 5, 9, 10, 15, 20}, new int[]{2, 3, 8, 13});
