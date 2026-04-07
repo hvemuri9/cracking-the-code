@@ -34,5 +34,12 @@ public class Main {
 
         //MoveZeroes
         MoveZeroes.moveZeroes(new int[]{0, 1, 0, 3, 12});
+
+        //3Sum
+        System.out.println(Arrays.toString(ThreeSum.getDistinctList(new int[]{-1, 0, 1, 2, -1, -4}).toArray()));
+        System.out.println(ThreeSum.closeToTarget(new int[]{-1, 2, 1, -4}));
+
+        //4Sum
+        System.out.println(Arrays.toString(FourSum.fourSum(new int[]{1, 0, -1, 0, -2, 2}, 0).toArray()));
     }
 }
