@@ -1,5 +1,7 @@
 package com.algo.tp;
 
+import com.algo.random.LuhnAlgorithm;
+
 import java.util.Arrays;
 
 public class Main {
@@ -41,5 +43,9 @@ public class Main {
 
         //4Sum
         System.out.println(Arrays.toString(FourSum.fourSum(new int[]{1, 0, -1, 0, -2, 2}, 0).toArray()));
+
+        //LuhnAlgorithm
+        System.out.println("Is card with number 4003600000000014 valid? " + LuhnAlgorithm.isValidCard(new int[]{4, 0, 0, 3, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 4}));
+        System.out.println("Is card with number 4992 7398 717 valid? " + LuhnAlgorithm.isValidCard(new int[]{4, 9, 9, 2, 7, 3, 9, 8, 7, 1, 7}));
     }
 }
