@@ -1,7 +1,7 @@
 package com.algo.sw;
 
 import com.algo.sw.fixed.CountDistinct;
-import com.algo.sw.fixed.LongestSubArray;
+import com.algo.sw.variable.LongestSubArray;
 import com.algo.sw.fixed.MaxSubArraySum;
 import com.algo.sw.fixed.MaxXOR;
 

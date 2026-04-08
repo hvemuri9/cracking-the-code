@@ -1,4 +1,4 @@
-package com.algo.sw.fixed;
+package com.algo.sw.variable;
 
 import java.util.HashMap;
 import java.util.Map;
