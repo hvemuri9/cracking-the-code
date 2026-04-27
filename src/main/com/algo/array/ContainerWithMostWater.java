@@ -1,4 +1,4 @@
-package com.algo.array.twopointer;
+package com.algo.array;
 
 public class ContainerWithMostWater {
 
