@@ -1,4 +1,4 @@
-package com.algo.dfs;
+package com.algo.trees.dfs;
 
 import java.util.ArrayList;
 import java.util.Arrays;

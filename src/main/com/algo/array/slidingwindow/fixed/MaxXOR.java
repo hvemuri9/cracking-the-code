@@ -1,4 +1,4 @@
-package com.algo.sw.fixed;
+package com.algo.array.slidingwindow.fixed;
 
 public class MaxXOR {
 

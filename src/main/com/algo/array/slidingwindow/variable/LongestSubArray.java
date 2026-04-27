@@ -1,4 +1,4 @@
-package com.algo.sw.variable;
+package com.algo.array.slidingwindow.variable;
 
 import java.util.HashMap;
 import java.util.Map;

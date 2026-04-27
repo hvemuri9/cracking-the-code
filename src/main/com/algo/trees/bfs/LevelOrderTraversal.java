@@ -1,4 +1,4 @@
-package com.algo.bfs;
+package com.algo.trees.bfs;
 
 import java.util.*;
 

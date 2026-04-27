@@ -1,4 +1,4 @@
-package com.algo.tp;
+package com.algo.array.twopointer;
 
 import com.algo.random.LuhnAlgorithm;
 

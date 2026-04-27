@@ -1,9 +1,9 @@
-package com.algo.sw;
+package com.algo.array.slidingwindow;
 
-import com.algo.sw.fixed.CountDistinct;
-import com.algo.sw.variable.LongestSubArray;
-import com.algo.sw.fixed.MaxSubArraySum;
-import com.algo.sw.fixed.MaxXOR;
+import com.algo.array.slidingwindow.fixed.CountDistinct;
+import com.algo.array.slidingwindow.variable.LongestSubArray;
+import com.algo.array.slidingwindow.fixed.MaxSubArraySum;
+import com.algo.array.slidingwindow.fixed.MaxXOR;
 
 import java.util.Arrays;
 
